@@ -1,5 +1,6 @@
 import 'package:design/router/AppRouter.dart';
 import 'package:design/ui/pages/drawer/drawer_app.dart';
+import 'package:design/ui/pages/orientation/orientation_app.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
       routes: {
         AppRouter.main: (context) => MainScreen(),
         AppRouter.drawer: (context) => DrawerApp(),
+        AppRouter.orientation: (context) => OrientationApp(),
       },
       initialRoute: AppRouter.main,
     );
@@ -37,6 +39,11 @@ class MainScreen extends StatelessWidget {
                 context: context,
                 route: AppRouter.drawer,
                 text: "Drawer App",
+              ),
+              _buildOutlineButton(
+                context: context,
+                route: AppRouter.orientation,
+                text: "Orientation App",
               ),
             ],
           ),
