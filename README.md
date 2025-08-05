@@ -1,16 +1,3 @@
-# design
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![drawer](https://github.com/user-attachments/assets/613da990-3afc-4fb9-b05d-8fd7d54ad3b2)
+![orientation](https://github.com/user-attachments/assets/73154457-6a29-431b-a1b6-6fbd93b103a2)
+![tab_bar](https://github.com/user-attachments/assets/1b7e2af5-7e8a-4f21-9f73-5e539a3cd60a)
